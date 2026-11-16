@@ -1,0 +1,79 @@
+{
+  "id": "wanlong",
+  "name": "崇礼 · 万龙",
+  "nameEn": "Wanlong, Chongli",
+  "region": "china-hebei",
+  "main": "万龙",
+  "origin": {
+    "lat": 40.962,
+    "lon": 115.39
+  },
+  "elevBase": 1460.0,
+  "grid": {
+    "x0": -2400.0,
+    "z0": -1800.0,
+    "nx": 961,
+    "nz": 721,
+    "dx": 5.0
+  },
+  "far": {
+    "x0": -4600.0,
+    "z0": -3750.0,
+    "nx": 369,
+    "nz": 301,
+    "dx": 25.0
+  },
+  "spawn": {
+    "piste": 3,
+    "name": "7 金龙道",
+    "x": 653.1,
+    "z": 830.6,
+    "heading": 0.102
+  },
+  "field": {
+    "uScale": 10.0,
+    "sScale": 4.0,
+    "dScale": 10.0,
+    "cutoff": 300.0,
+    "noneId": 255
+  },
+  "counts": {
+    "pistes": 53,
+    "lifts": 11,
+    "buildings": 34,
+    "roads": 17,
+    "parking": 2,
+    "trees": 87127
+  },
+  "trees": 87127,
+  "attribution": "地形：AWS Terrain Tiles（Mapzen / SRTM 等）· 雪道、缆车、建筑：© OpenStreetMap contributors（ODbL）· 林地：ESA WorldCover（CC BY 4.0）",
+  "sources": [
+    {
+      "name": "AWS Terrain Tiles (terrarium)",
+      "url": "https://registry.opendata.aws/terrain-tiles/",
+      "license": "see https://github.com/tilezen/joerd/blob/master/docs/attribution.md",
+      "detail": "near z14 (~7.22 m/px) bicubic -> 5 m (gaussian sigma 1.0 cell); far z13 (~14.43 m/px) -> 25 m"
+    },
+    {
+      "name": "OpenStreetMap",
+      "url": "https://www.openstreetmap.org/copyright",
+      "license": "ODbL 1.0",
+      "detail": "Overpass (https://maps.mail.ru/osm/tools/overpass/api/interpreter), fetched 2026-11-16"
+    },
+    {
+      "name": "ESA WorldCover 10 m 2021 v200",
+      "url": "https://esa-worldcover.org/",
+      "license": "CC BY 4.0",
+      "detail": "tree cover class (10) drives tree density"
+    }
+  ],
+  "generated": "2026-11-16",
+  "files": {
+    "map.json": 169986,
+    "height.f32": 2771524,
+    "far.f32": 444276,
+    "field.i16": 4157286,
+    "pisteid.u8": 692881,
+    "trees.f32": 1394032
+  }
+}
