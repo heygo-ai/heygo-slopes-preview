@@ -52,7 +52,7 @@
       "name": "AWS Terrain Tiles (terrarium)",
       "url": "https://registry.opendata.aws/terrain-tiles/",
       "license": "see https://github.com/tilezen/joerd/blob/master/docs/attribution.md",
-      "detail": "near z14 (~7.22 m/px) bicubic -> 5 m (gaussian sigma 1.0 cell); far z13 (~14.43 m/px) -> 25 m"
+      "detail": "near z14 (~7.22 m/px) bicubic -> 5 m (gaussian sigma 1.0 cell); far z13 (~14.43 m/px) -> 25 m; horizon z11 (~57.72 m/px) -> 120 m, 60 km"
     },
     {
       "name": "OpenStreetMap",
@@ -74,6 +74,16 @@
     "far.f32": 444276,
     "field.i16": 4157286,
     "pisteid.u8": 692881,
-    "trees.f32": 1394032
+    "trees.f32": 1394032,
+    "horizon.u16": 502002
+  },
+  "horizon": {
+    "x0": -30000.0,
+    "z0": -30000.0,
+    "nx": 501,
+    "nz": 501,
+    "dx": 120.0,
+    "offset": -752.0,
+    "step": 0.1
   }
 }
