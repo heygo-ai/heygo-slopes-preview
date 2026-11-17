@@ -1,5 +1,5 @@
 # heygo-slopes preview
 
-Build output of the private repo heygo-ai/heygo-slopes @ e965502. Auto-updated by edge-dev.
+Build output of the private repo heygo-ai/heygo-slopes @ 4b9812e. Auto-updated by edge-dev.
 
 Map data (c) OpenStreetMap contributors (ODbL); terrain AWS Terrain Tiles; land cover ESA WorldCover (CC BY 4.0).
